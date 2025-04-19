@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Footer from './components/Footer'
 
 export default function Home() {
@@ -9,7 +10,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center space-x-2">
+              <Image
+                src="/icon.png"
+                alt="Tweet Toilet Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Tweet Toilet</span>
             </Link>
 
@@ -30,14 +38,27 @@ export default function Home() {
       <section className="pt-24 pb-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-6xl font-bold leading-tight tracking-tight text-gray-900 mb-8">
-              Special Launch Offer —<br />
+            <div className="flex justify-center mb-12">
+              <Image
+                src="/icon.png"
+                alt="Tweet Toilet Logo"
+                width={96}
+                height={96}
+                className="w-24 h-24"
+                priority
+              />
+            </div>
+            <h1 className="text-6xl font-bold leading-tight tracking-tight mb-8">
+              <span className="text-gray-900">The Most </span>
               <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                50% Off Premium
+                Satisfying Way To Tweet
               </span>
             </h1>
+            <p className="text-2xl font-semibold text-gray-600 mb-8">
+              Special Launch Offer — <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">50% Off Premium</span>
+            </p>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Experience the most satisfying way to tweet. Limited time offer.
+              Experience Twitter like never before. Limited time offer.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
