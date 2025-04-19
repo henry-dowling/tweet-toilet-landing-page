@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 backdrop-blur-lg bg-white/70 border-b border-gray-100">
+      <nav className="sticky top-0 z-50 backdrop-blur-lg bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
@@ -16,7 +16,7 @@ export default function Home() {
                 alt="Tweet Toilet Logo"
                 width={48}
                 height={48}
-                className="w-12 h-12"
+                className="w-14 h-14 bg-transparent"
               />
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Tweet Toilet</span>
             </Link>
@@ -35,7 +35,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-32">
+      <section className="pt-24 pb-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-12">
@@ -44,7 +44,7 @@ export default function Home() {
                 alt="Tweet Toilet Logo"
                 width={160}
                 height={160}
-                className="w-40 h-40"
+                className="w-44 h-44 bg-transparent"
                 priority
               />
             </div>
