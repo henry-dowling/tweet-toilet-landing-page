@@ -12,11 +12,11 @@ export default function Home() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/icon.png"
+                src="/icon-white.png"
                 alt="Tweet Toilet Logo"
-                width={32}
-                height={32}
-                className="w-8 h-8"
+                width={48}
+                height={48}
+                className="w-12 h-12"
               />
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Tweet Toilet</span>
             </Link>
@@ -40,11 +40,11 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-12">
               <Image
-                src="/icon.png"
+                src="/icon-white.png"
                 alt="Tweet Toilet Logo"
-                width={96}
-                height={96}
-                className="w-24 h-24"
+                width={160}
+                height={160}
+                className="w-40 h-40"
                 priority
               />
             </div>
