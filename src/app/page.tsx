@@ -54,11 +54,8 @@ export default function Home() {
                 Satisfying Way To Tweet
               </span>
             </h1>
-            <p className="text-2xl font-semibold text-gray-600 mb-8">
-              Special Launch Offer — <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">50% Off Premium</span>
-            </p>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Experience Twitter like never before. Limited time offer.
+              Experience Twitter like never before.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
@@ -81,9 +78,10 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-br from-blue-600 to-cyan-500">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to elevate your Twitter game?</h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto">
-            Join thousands of users who have transformed their Twitter experience with Tweet Toilet.
+          <h2 className="text-4xl font-bold text-white mb-8">Instantly tweet from any page with a blazing fast shortcut.</h2>
+          <p className="text-xl text-blue-100 mb-12 max-w-3xl mx-auto">
+            Ctrl+Shift+S on any webpage to instantly open Tweet Toilet.<br />
+            Type your tweet and hit Enter to share.
           </p>
           <Link
             href="https://chrome.google.com/webstore"
