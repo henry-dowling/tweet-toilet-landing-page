@@ -75,24 +75,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-br from-blue-600 to-cyan-500">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Simultaneously increase and decrease your Twitter usage.</h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-3xl mx-auto">
-            Ctrl+Shift+S on any webpage to instantly open Tweet Toilet.<br />
-            Type your tweet and hit Enter to share.
-          </p>
-          <Link
-            href="https://chrome.google.com/webstore"
-            className="inline-block px-8 py-4 text-lg font-semibold text-blue-600 bg-white rounded-full hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
-          >
-            Get Started Free
-          </Link>
-        </div>
-      </section>
+      {/* CTA Section + Footer */}
+      <div className="bg-gradient-to-br from-blue-600 to-cyan-500">
+        <section className="py-24">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-4xl font-bold text-white mb-8">Simultaneously increase and decrease your Twitter usage.</h2>
+            <p className="text-xl text-blue-100 mb-12 max-w-3xl mx-auto">
+              Ctrl+Shift+S on any webpage to instantly open Tweet Toilet.<br />
+              Type your tweet and hit Enter to share.
+            </p>
+            <Link
+              href="https://chrome.google.com/webstore"
+              className="inline-block px-8 py-4 text-lg font-semibold text-blue-600 bg-white rounded-full hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
+              Get Started Free
+            </Link>
+          </div>
+        </section>
 
-      <Footer />
+        <Footer />
+      </div>
     </main>
   )
 }
