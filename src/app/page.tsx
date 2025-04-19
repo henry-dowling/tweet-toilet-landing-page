@@ -13,25 +13,6 @@ export default function Home() {
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Tweet Toilet</span>
             </Link>
 
-            {/* Navigation Links */}
-            <nav className="hidden md:flex items-center space-x-8">
-              <Link href="#features" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
-                New
-              </Link>
-              <Link href="#features" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
-                Features
-              </Link>
-              <Link href="#pricing" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
-                Pricing
-              </Link>
-              <Link href="#about" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
-                About
-              </Link>
-              <Link href="#support" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
-                Support
-              </Link>
-            </nav>
-
             {/* Right Navigation */}
             <div className="flex items-center space-x-4">
               <Link 
