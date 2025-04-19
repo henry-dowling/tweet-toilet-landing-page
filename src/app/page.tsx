@@ -15,12 +15,6 @@ export default function Home() {
 
             {/* Right Navigation */}
             <div className="flex items-center space-x-4">
-              <Link 
-                href="/signin" 
-                className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors"
-              >
-                Sign in
-              </Link>
               <Link
                 href="/signup"
                 className="text-sm font-semibold px-4 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
