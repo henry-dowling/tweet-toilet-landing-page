@@ -75,11 +75,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section + Footer */}
-      <div className="bg-gradient-to-br from-blue-600 to-cyan-500">
+      {/* Demo + CTA Section Container */}
+      <div className="bg-gradient-to-b from-blue-600 via-blue-500 to-cyan-500">
+        {/* Demo Section */}
+        <section className="py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-4xl font-bold text-white text-center mb-16">Simultaneously increase and decrease your Twitter usage.</h2>
+              <div className="rounded-2xl shadow-2xl overflow-hidden mx-8">
+                <Image
+                  src="/demo-pic.png"
+                  alt="Tweet Toilet interface demonstration on Wikipedia"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
         <section className="py-24">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold text-white mb-8">Simultaneously increase and decrease your Twitter usage.</h2>
             <p className="text-xl text-blue-100 mb-12 max-w-3xl mx-auto">
               Ctrl+Shift+S on any webpage to instantly open Tweet Toilet.<br />
               Type your tweet and hit Enter to share.
