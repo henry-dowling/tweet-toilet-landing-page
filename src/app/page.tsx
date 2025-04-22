@@ -78,19 +78,23 @@ export default function Home() {
       {/* Demo + CTA Section Container */}
       <div className="bg-gradient-to-b from-blue-600 via-blue-500 to-cyan-500">
         {/* Demo Section */}
-        <section className="pt-8 pb-8">
+        <section className="py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-4xl font-bold text-white text-center mb-10 whitespace-nowrap">Simultaneously increase and decrease your Twitter usage.</h2>
-              <div className="rounded-2xl shadow-2xl overflow-hidden">
-                <Image
-                  src="/demo-pic.png"
-                  alt="Tweet Toilet interface demonstration on Wikipedia"
-                  width={1200}
-                  height={800}
-                  className="w-full h-auto"
-                  priority
-                />
+              <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16 max-w-3xl mx-auto leading-tight">
+                Simultaneously increase and decrease your Twitter usage.
+              </h2>
+              <div className="rounded-2xl shadow-2xl overflow-hidden backdrop-blur-sm bg-white/5 p-2">
+                <div className="rounded-xl overflow-hidden">
+                  <Image
+                    src="/demo-pic.png"
+                    alt="Tweet Toilet interface demonstration on Wikipedia"
+                    width={1200}
+                    height={800}
+                    className="w-full h-auto transform hover:scale-[1.02] transition-transform duration-300"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
