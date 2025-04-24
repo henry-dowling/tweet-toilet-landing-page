@@ -24,7 +24,7 @@ export default function Home() {
             {/* Right Navigation */}
             <div className="flex items-center space-x-4">
               <Link
-                href="/signup"
+                href="https://chromewebstore.google.com/detail/tweet-toilet/lanmacjbfpkcfildlgjldjpbjmeekmem"
                 className="text-sm font-semibold px-4 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
               >
                 Install
@@ -59,7 +59,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
-                href="https://chrome.google.com/webstore"
+                href="https://chromewebstore.google.com/detail/tweet-toilet/lanmacjbfpkcfildlgjldjpbjmeekmem"
                 className="w-full sm:w-auto px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Install Now
@@ -126,7 +126,7 @@ export default function Home() {
 
               <div className="flex flex-col items-center space-y-4">
                 <Link
-                  href="https://chrome.google.com/webstore"
+                  href="https://chromewebstore.google.com/detail/tweet-toilet/lanmacjbfpkcfildlgjldjpbjmeekmem"
                   className="inline-flex items-center px-8 py-4 text-lg font-semibold text-blue-600 bg-white rounded-full hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   <span>Use</span>
