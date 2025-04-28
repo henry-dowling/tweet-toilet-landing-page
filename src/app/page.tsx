@@ -61,7 +61,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-12">
               <Image
-                src="/icon.png"
+                src="/icon-big.png"
                 alt="Tweet Toilet Logo"
                 width={160}
                 height={160}
