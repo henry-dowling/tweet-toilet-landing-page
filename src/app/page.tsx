@@ -76,7 +76,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Instantly tweet from any page with opening Twitter.
+              Instantly tweet from any page with opening Twitter
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <Link
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16 max-w-3xl mx-auto leading-tight">
-                Simultaneously increase and decrease your Twitter usage.
+                Simultaneously increase and decrease your Twitter usage
               </h2>
               <div className="rounded-2xl shadow-2xl overflow-hidden backdrop-blur-sm bg-white/5 p-2">
                 <div className="rounded-xl overflow-hidden">
@@ -122,7 +122,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             <div className="max-w-4xl mx-auto">
               <h3 className="text-3xl font-bold text-white mb-8">
-                A keyboard shortcut for blazing-fast tweets.
+                A keyboard shortcut for blazing-fast tweets
               </h3>
 
               {/* Keyboard Shortcut Display */}
@@ -138,7 +138,7 @@ export default function Home() {
               </div>
 
               <p className="text-xl text-blue-100 mb-12">
-                Share your thoughts in milliseconds, from anywhere on the web, without distractions.<br />
+                Share your thoughts in milliseconds, from anywhere on the web, without distractions<br />
               </p>
 
               <div className="flex flex-col items-center space-y-4">
