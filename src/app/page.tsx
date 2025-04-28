@@ -22,7 +22,7 @@ export default function Home() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/icon-white.png"
+                src="/icon.png"
                 alt="Tweet Toilet Logo"
                 width={48}
                 height={48}
@@ -61,7 +61,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-12">
               <Image
-                src="/icon-white.png"
+                src="/icon.png"
                 alt="Tweet Toilet Logo"
                 width={160}
                 height={160}
