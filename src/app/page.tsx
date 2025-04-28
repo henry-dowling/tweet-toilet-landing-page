@@ -2,6 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Footer from './components/Footer'
 import { Metadata } from 'next'
+import dynamic from 'next/dynamic'
+
+const DemoVideo = dynamic(() => import('./components/DemoVideo'), { ssr: false })
 
 export const metadata: Metadata = {
   icons: {
@@ -104,14 +107,7 @@ export default function Home() {
               </h2>
               <div className="rounded-2xl shadow-2xl overflow-hidden backdrop-blur-sm bg-white/5 p-2">
                 <div className="rounded-xl overflow-hidden">
-                  <Image
-                    src="/demo-pic.png"
-                    alt="Tweet Toilet interface demonstration on Wikipedia"
-                    width={1200}
-                    height={800}
-                    className="w-full h-auto transform hover:scale-[1.02] transition-transform duration-300"
-                    priority
-                  />
+                  <DemoVideo />
                 </div>
               </div>
             </div>
