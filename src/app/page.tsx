@@ -1,6 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Footer from './components/Footer'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  icons: {
+    icon: '/icon.png',
+  },
+}
 
 export default function Home() {
   return (
