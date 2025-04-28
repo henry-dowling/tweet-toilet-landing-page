@@ -40,7 +40,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                 </svg>
                 <span>GitHub</span>
               </Link>
@@ -76,20 +76,23 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Instantly tweet from any page with a blazing-fast keyboard shortcut.
+              Instantly tweet from any page with opening Twitter.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <Link
                 href="https://chromewebstore.google.com/detail/tweet-toilet/lanmacjbfpkcfildlgjldjpbjmeekmem"
-                className="w-full sm:w-auto px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
-                Install Now
+                <img src="/chrome-icon.png" alt="Chrome" className="w-5 h-5" />
+                <span>Install on Chrome</span>
               </Link>
+
               <Link
-                href="#learn-more"
-                className="w-full sm:w-auto px-8 py-4 text-lg font-semibold text-gray-600 hover:text-gray-900 transition-colors"
+                href="https://news.ycombinator.com/item?id=43821319"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold text-orange-600 border border-orange-600 rounded-full hover:bg-orange-50 transition-all"
               >
-                Learn more →
+                <img src="/hn-icon.png" alt="Hacker News" className="w-5 h-5" />
+                <span>Discuss on Hacker News</span>
               </Link>
             </div>
           </div>
@@ -121,11 +124,11 @@ export default function Home() {
               <h3 className="text-3xl font-bold text-white mb-8">
                 A keyboard shortcut for blazing-fast tweets.
               </h3>
-              
+
               {/* Keyboard Shortcut Display */}
               <div className="inline-flex items-center space-x-4 bg-white/10 rounded-2xl px-8 py-4 mb-8">
                 <div className="flex items-center space-x-2">
-                  <kbd className="px-3 py-2 text-sm font-semibold bg-white text-blue-600 rounded-lg shadow">Ctrl</kbd>
+                  <kbd className="px-3 py-2 text-sm font-semibold bg-white text-blue-600 rounded-lg shadow">Cmd</kbd>
                   <span className="text-white">+</span>
                   <kbd className="px-3 py-2 text-sm font-semibold bg-white text-blue-600 rounded-lg shadow">Shift</kbd>
                   <span className="text-white">+</span>
@@ -135,7 +138,7 @@ export default function Home() {
               </div>
 
               <p className="text-xl text-blue-100 mb-12">
-                Share your thoughts in seconds, from anywhere on the web.<br />
+                Share your thoughts in milliseconds, from anywhere on the web, without distractions.<br />
               </p>
 
               <div className="flex flex-col items-center space-y-4">
@@ -143,7 +146,7 @@ export default function Home() {
                   href="https://chromewebstore.google.com/detail/tweet-toilet/lanmacjbfpkcfildlgjldjpbjmeekmem"
                   className="inline-flex items-center px-8 py-4 text-lg font-semibold text-blue-600 bg-white rounded-full hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
-                  <span>Use</span>
+                  <span>Flush Your Tweets Now</span>
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
