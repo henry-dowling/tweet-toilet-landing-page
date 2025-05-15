@@ -76,7 +76,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Instantly tweet from any page with opening Twitter
+              Instantly tweet from any tab without opening Twitter
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <Link
